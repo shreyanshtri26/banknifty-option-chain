@@ -42,12 +42,6 @@ npm install
 - Import the provided VPN profile into your OpenVPN client
 - Connect to the VPN
 
-4. Create a `.env` file in the root directory:
-```env
-REACT_APP_API_BASE_URL=https://prices.algotest.xyz
-REACT_APP_WS_URL=wss://prices.algotest.xyz/mock/updates
-```
-
 ## 🚀 Running the Application
 
 1. Start the development server:
