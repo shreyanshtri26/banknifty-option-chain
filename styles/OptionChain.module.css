@@ -1,0 +1,72 @@
+.optionChainWrapper {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+    overflow: auto;
+  }
+  
+  .optionChain {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+  }
+  
+  .optionChain th {
+    position: sticky;
+    top: 0;
+    background: #f8fafc;
+    padding: 1rem;
+    text-align: right;
+    font-weight: 600;
+    color: #475569;
+    border-bottom: 2px solid var(--border-color);
+  }
+  
+  .optionChain td {
+    padding: 0.75rem 1rem;
+    text-align: right;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .strikePrice {
+    font-weight: 600;
+    background-color: #f8fafc;
+    color: var(--primary-color);
+  }
+  
+  .positive {
+    color: var(--success-color);
+  }
+  
+  .negative {
+    color: var(--danger-color);
+  }
+  
+  .callSection td {
+    background-color: rgba(37, 99, 235, 0.02);
+  }
+  
+  .putSection td {
+    background-color: rgba(220, 38, 38, 0.02);
+  }
+  
+  .row:hover td {
+    background-color: var(--hover-color);
+  }
+  
+  .lastPrice {
+    font-weight: 500;
+  }
+  
+  .highlight {
+    animation: flash 1s;
+  }
+  
+  @keyframes flash {
+    0% {
+      background-color: rgba(37, 99, 235, 0.2);
+    }
+    100% {
+      background-color: transparent;
+    }
+  }
